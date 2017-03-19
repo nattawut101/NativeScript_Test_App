@@ -1,0 +1,28 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "th.ac.rvc.RApp",
+    "tns-android": {
+      "version": "2.5.0"
+    }
+  },
+  "dependencies": {
+    "moment": "^2.17.1",
+    "nativescript-background-http": "^2.5.1",
+    "nativescript-camera": "0.0.8",
+    "nativescript-google-maps-sdk": "^1.4.3",
+    "nativescript-theme-core": "~1.0.2",
+    "nativescript-vibrate": "^1.1.2",
+    "tns-core-modules": "2.5.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.4.5",
+    "babel-types": "6.4.5",
+    "babylon": "6.4.5",
+    "lazy": "1.0.11",
+    "nativescript-dev-android-snapshot": "^0.*.*"
+  }
+}

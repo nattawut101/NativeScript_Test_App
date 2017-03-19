@@ -1,0 +1,16 @@
+<Page loaded="pageLoad" navigatingTo="navigationTo">
+    <StackLayout orientation="vertical">
+        <StackLayout orientation="horizontal">
+            <Label text="{{ next30day }}" />
+            <Label text="{{ author }}" />
+        </StackLayout>
+        <ListView items="{{ list }}">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal">
+                    <Label text="{{ name }}" class="name" />
+                    <Label text="{{ qty }}" class="qty" />
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>

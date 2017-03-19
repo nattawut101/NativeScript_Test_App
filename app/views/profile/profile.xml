@@ -1,0 +1,6 @@
+<Page loaded="pageLoaded">
+    <StackLayout orientation="vertical">
+        <Button text="Camera" tap="goCamera" />
+        <Image id="pic" />
+    </StackLayout>
+</Page>

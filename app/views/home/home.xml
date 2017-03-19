@@ -1,0 +1,14 @@
+<Page loaded="load">
+    <StackLayout orientation="vertical">
+        <TextField id="name" hint="Your name" text="{{ name }}"/>
+        <TextField id="message" hint="Message" text="{{ message }}" />
+        <StackLayout orientation="vertical">
+            <Button text="Send Message" class="ibutton" tap="setMessage" />
+            <Button text="Show Message" class="ibutton" tap="showMessage" />
+            <Button text="Take Photo" class="ibutton" tap="takePhoto" />
+            <Button text="Map" class="ibutton" tap="goMap" />
+            <Button text="List with Data" class="ibutton" tap="goList" />
+        </StackLayout>
+        <Image id="photo" />
+    </StackLayout>
+</Page>

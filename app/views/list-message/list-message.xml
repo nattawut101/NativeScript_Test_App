@@ -1,0 +1,13 @@
+<Page loaded="pageLoad">
+    <StackLayout orientation="vertical">
+        <ListView items="{{ list }}">
+            <ListView.itemTemplate>
+                <StackLayout orientation="horizontal">
+                    <Label text="{{ id }}" class="id" />
+                    <Label text="{{ name }}" class="name" />
+                    <Label text="{{ message }}" class="message" />
+                </StackLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+</Page>
